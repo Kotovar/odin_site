@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box; /*размеры всех элементов(*) интуитивно понятные, ширина блока не увеличивается из-за границ дополнительных, отступов и тд.*/
+  scroll-behavior: smooth; /*Плавная прокрутка по якорям.*/
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #f9faf8;
+  font-size: 48px;
+}
+
+.main_one h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 24px;
+}
+
+.pictures {
+  display: flex;
+  margin: 5px 56px 32px 56px;
+  justify-content: center;
+  gap: 36px;
+}
+
+.picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.picture img {
+  border-radius: 3px;
+}
+
+.picture p {
+  width: 150px;
+  text-align: center;
+}
+
+.top_text p,
+a {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+li {
+  list-style: none;
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  padding: 0 48px 48px 48px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 16px;
+  font-size: 12px;
+}
+
+.header_one,
+.header_two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_two {
+  background-color: #e5e7eb;
+  padding: 48px 196px;
+}
+
+figcaption {
+  text-align: end;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.logo_img {
+  background-color: transparent; /* Это сделает фон полностью прозрачным */
+}
+
+.top_links ul {
+  display: flex;
+  gap: 8px;
+}
+
+.enter1 {
+  background-color: #3882f6;
+  color: white;
+  padding: 6px 24px;
+  border-radius: 5%;
+  border: 0;
+  margin-top: 8px;
+}
+
+.enter2 {
+  background-color: #3882f6;
+  color: white;
+  padding-right: 24px;
+  padding-left: 24px;
+  border-radius: 5%;
+  border: 1px solid white;
+  margin: 8px;
+}
+
+.last_div {
+  background: #3882f6;
+  margin: 42px 96px;
+  border-radius: 3px;
+}
+
+.last_div h3,
+.last_div p {
+  color: #f9faf8;
+}
+
+.last_div {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+}
